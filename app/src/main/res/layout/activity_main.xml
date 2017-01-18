@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="codefirst.sqlite_test.MainActivity">
+
+    <EditText
+        android:id="@+id/et_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="文本输入框"/>
+    <Button
+        android:id="@+id/btn_skip_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SP页面"
+        />
+</LinearLayout>
